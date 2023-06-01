@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm -r --parallel -F server -F panel run dev",
     "dev:server": "pnpm -F server run dev",
     "dev:panel": "pnpm -F panel run dev"
   },
